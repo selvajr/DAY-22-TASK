@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin-top: 10px;   
+}
+*{
+    background-color: rgb(0, 102, 255);
+}
+.card{
+     width: 380px;
+     border-radius: 15px;
+     background-color: white;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     height: 490px;
+     
+}
+.card1{
+    border-radius: 15px;
+    background-color: white;
+    height: 490px;
+}
+.active{
+    background-color: white;
+    width: 20rem;
+    position: relative;
+    left: 25px;
+}
+.deactive{
+    background-color: white;
+    width: 20rem;
+    position: relative;
+    left: 25px;
+    color: rgba(0, 0, 0, 0.671);
+}
+center{
+    background-color: white;
+    *{
+        background-color: white;
+    }
+}
+.btn{
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgba(0, 102, 255, 0.815);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 102, 255);
+}
+.deactive1{
+    color: rgba(0, 0, 0, 0.671);
+}
